@@ -1,0 +1,16 @@
+{
+  "name": "automix",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SerDimoa",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.11.2",
+    "bs-html-injector": "^3.0.1",
+    "gulp": "^3.9.1"
+  }
+}

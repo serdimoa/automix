@@ -1,0 +1,26 @@
+{
+  "name": "automix",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "SerDimoa"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "tabtab.js": "^0.1.3",
+    "magnific-popup": "^1.1.0",
+    "jquery-ui": "^1.11.4",
+    "jquery-auto-grow-input": "*"
+  }
+}

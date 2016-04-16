@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'AvenirNext';
+    src: url('AvenirNext-Regular.eot');
+    src: url('AvenirNext-Regular.svg#AvenirNext') format('svg'),
+         url('AvenirNext-Regular.woff') format('woff'),
+         url('AvenirNext-Regular.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirNext';
+    src: url('AvenirNext-Medium.eot');
+    src: url('AvenirNext-Medium.svg#AvenirNext') format('svg'),
+         url('AvenirNext-Medium.woff') format('woff'),
+         url('AvenirNext-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirNext';
+    src: url('AvenirNext-DemiBold.eot');
+    src: url('AvenirNext-DemiBold.svg#AvenirNext') format('svg'),
+         url('AvenirNext-DemiBold.woff') format('woff'),
+         url('AvenirNext-DemiBold.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AvenirNext';
+    src: url('AvenirNext-Bold.eot');
+    src: url('AvenirNext-Bold.svg#AvenirNext') format('svg'),
+         url('AvenirNext-Bold.woff') format('woff'),
+         url('AvenirNext-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}

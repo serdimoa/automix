@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!--    <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="bower_components/magnific-popup/dist/magnific-popup.css">
+    <link rel="stylesheet" href="fonts/avenir.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="background">
+    <header>
+        <div class="container">
+            <div class="row top-menu">
+                <div class="col-xs-5">
+                    <ul class="list-inline">
+                        <li><a href="#">Оплата</a></li>
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Гарантия</a></li>
+                        <li><a href="#">Блог</a></li>
+                        <li><a href="#">О нас</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-4 pull-right text-right">
+                    <ul class="list-inline">
+                        <li><a href="#">Что с моим заказом?</a></li>
+                        <li><a href="#">Помощь</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="top-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-5">
+                        <div class="row">
+                            <div class="col-xs-6 geo-ip">
+                                <div class="row">
+                                    <img src="images/Локация.png" class="col-xs-3 img-responsive" alt="">
+                                    <div class="col-xs-9 location">
+                                        <span class="city">Нижневартовск</span>
+                                        <br>
+                                        <a href="#" class="url dotted-underline">не ваш город?</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 phone">
+                                <span class="number">+7 800 <span>800 31 31</span></span>
+                                <br>
+                                <a href="#" class="call dotted-underline">заказать обратный звонок</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-3">
+                        <input type="text" class="form-control search-query" placeholder="что вы ищите?">
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="row">
+                            <div class="col-xs-6 text-center logo">
+                                <div class="image">
+                                    <div class="src"></div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3">
+                                <a href="#"><img src="images/%D0%B2%D1%85%D0%BE%D0%B4.png" alt=""></a>
+                            </div>
+                            <div class="col-xs-3">
+                                <a href="#">
+                                    <img src="images/%D0%BA%D0%BE%D1%80%D0%B7%D0%B8%D0%BD%D0%B0.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="navigation">
+            <div class="container">
+                <nav>
+                    <ul class="list-inline">
+                        <li><a href="#">Весь каталог</a></li>
+                        <li><a href="#">Красота</a></li>
+                        <li><a href="#">Безопасность</a></li>
+                        <li><a href="#">Комфорт</a></li>
+                        <li><a href="#">Скидки</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="breadcrumb" class="container-fluid">
+        <div class="row">
+            <div class="container">
+                <ol class="breadcrumb__body list-inline">
+                    <li class="breadcrumb__body-link"><a href="#">Главная</a></li>
+                    <li class="breadcrumb__body-link active">Корзина</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    <section id="blogpost" class="blogpost container">
+        <div class="row header">
+            <div class="col-xs-10 col-xs-offset-1">
+                <h2 class="title"><span>КОРЗИНА</span></h2>
+            </div>
+        </div>
+
+
+
+        <div class="row basket__table">
+            <div class="col-xs-10 col-xs-offset-1">
+
+                <table class="table">
+                    <thead class="basket__header">
+                        <tr>
+                            <th>Товар</th>
+                            <th>Стоимость</th>
+                            <th>Кол-во</th>
+                            <th>Итого</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="basket__row">
+                            <th class="col-xs-5" scope="row">
+                                <div class="media">
+                                    <div class="media-left media-middle">
+                                        <a href="#">
+                                            <img class="media-object" src="http://dummyimage.com/160x160/dbdbdb/000000" alt="...">
+                                        </a>
+                                    </div>
+                                    <div class="media-body media-middle">
+                                        <h4 class="media-heading">Наименование товара</h4>
+                                    </div>
+                                </div>
+                            </th>
+                            <td class="verticalMiddle basket__one-price">9 990 руб.</td>
+                            <td class="verticalMiddle">
+                                <div class="col-xs-12 item__price-quantity">
+                                    <table class="row item__price-table">
+                                        <tr class="col-xs-12 item__price-tableRow">
+                                            <td class="item__price-tableCol minus">-</td>
+                                            <td class="item__price-tableCol col-price">
+                                                <div class="col-price__nums">
+                                                    <input class="quantity" type="number" value="1" min="1"><span>шт</span></div>
+                                            </td>
+                                            <td class="item__price-tableCol plus">+</td>
+                                        </tr>
+                                    </table>
+
+                                </div>
+                            </td>
+                            <td class="verticalMiddle basket__summ">9 990 руб.</td>
+                            <td class="verticalMiddle"><a href="#" class="basket__row-delete"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a></td>
+                        </tr>
+                        <tr class="basket__row">
+                            <th class="col-xs-5" scope="row">
+                                <div class="media">
+                                    <div class="media-left media-middle">
+                                        <a href="#">
+                                            <img class="media-object" src="http://dummyimage.com/160x160/dbdbdb/000000" alt="...">
+                                        </a>
+                                    </div>
+                                    <div class="media-body media-middle">
+                                        <h4 class="media-heading">Наименование товара</h4>
+                                    </div>
+                                </div>
+                            </th>
+                            <td class="verticalMiddle basket__one-price "> 990 руб.</td>
+                            <td class="verticalMiddle">
+                                <div class="col-xs-12 item__price-quantity">
+                                    <table class="row item__price-table">
+                                        <tr class="col-xs-12 item__price-tableRow">
+                                            <td class="item__price-tableCol minus">-</td>
+                                            <td class="item__price-tableCol col-price">
+                                                <div class="col-price__nums">
+                                                    <input class="quantity" type="number" value="1" min="1"><span>шт</span></div>
+                                            </td>
+                                            <td class="item__price-tableCol plus">+</td>
+                                        </tr>
+                                    </table>
+
+                                </div>
+                            </td>
+                            <td class="verticalMiddle basket__summ">9 990 руб.</td>
+                            <td class="verticalMiddle"><a href="#" class="basket__row-delete"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a></td>
+
+                        </tr>
+                        <tr class="basket__row">
+                            <th class="col-xs-5" scope="row">
+                                <div class="media">
+                                    <div class="media-left media-middle">
+                                        <a href="#">
+                                            <img class="media-object" src="http://dummyimage.com/160x160/dbdbdb/000000" alt="...">
+                                        </a>
+                                    </div>
+                                    <div class="media-body media-middle">
+                                        <h4 class="media-heading">Наименование товара</h4>
+                                    </div>
+                                </div>
+                            </th>
+                            <td class="verticalMiddle basket__one-price">9 990 руб.</td>
+                            <td class="verticalMiddle">
+                                <div class="col-xs-12 item__price-quantity">
+                                    <table class="row item__price-table">
+                                        <tr class="col-xs-12 item__price-tableRow">
+                                            <td class="item__price-tableCol minus">-</td>
+                                            <td class="item__price-tableCol col-price">
+                                                <div class="col-price__nums">
+                                                    <input class="quantity" type="number" value="1" min="1"><span>шт</span></div>
+                                            </td>
+                                            <td class="item__price-tableCol plus">+</td>
+                                        </tr>
+                                    </table>
+
+                                </div>
+                            </td>
+                            <td class="verticalMiddle basket__summ">9 990 руб.</td>
+                            <td class="verticalMiddle"><a href="#" class="basket__row-delete"><span class="glyphicon glyphicon-remove" aria-hidden="true"></span></a></td>
+
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+        <div class="row basket__form">
+            <div class="col-xs-6 col-xs-offset-3">
+                <div class="row">
+                    <div class="col-xs-12 basket__form-title">
+                        Оформить заказ
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <img src="images/arrowdown.png" class="arrowdown center-block" alt="">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="field__name">Имя</label>
+                                <input type="text" class="form-control" id="field__name" placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label for="field__phone">Телефон</label>
+                                <input type="tel" class="form-control" id="field__phone" placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label for="field__city">Населенный пункт</label>
+                                <input type="text" class="form-control" id="field__city" placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label for="field__address">Адрес</label>
+                                <input type="text" class="form-control" id="field__address" placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label for="field__email">Эл. почта</label>
+                                <input type="email" class="form-control" id="field__email" placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label for="">Оплата</label>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="field__options" value="option1" checked> При получении
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="field__options" value="option1"> Электронная комерция
+                                    </label>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn field__send">ОТПРАВИТЬ ЗАКАЗ</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="recommendation" class="container page-recommendation">
+        <div class="row header">
+            <div class="col-xs-10 col-xs-offset-1">
+                <h2 class="title"><span>РЕКОМЕНДУЕМ</span></h2>
+            </div>
+        </div>
+        <div class="row">
+
+            <div class="col-xs-2 product col-xs-offset-1">
+                <div class="product__thumbnail sale-icon ">
+                    <img src="images/225%D1%85225.png" class=" product__thumbnail-image img-responsive" alt="...">
+                    <div class="caption">
+                        <h3 class="product__thumbnail-title">Название товара не более двух строк</h3>
+                        <p class="product__thumbnail-price">9 990 руб.</p>
+                        <div class="product__thumbnail-showOnHover">
+                            <a href="#" class="product__thumbnail-buy">В КОРЗИНУ</a>
+                            <a href="fastview.html" class="product__thumbnail-fastView simple-ajax-popup">Быстрый просмотр</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-2 product">
+                <div class="product__thumbnail sale-icon ">
+                    <img src="images/225%D1%85225.png" class=" product__thumbnail-image img-responsive" alt="...">
+                    <div class="caption">
+                        <h3 class="product__thumbnail-title">Название товара не более двух строк</h3>
+                        <p class="product__thumbnail-price">9 990 руб.</p>
+                        <div class="product__thumbnail-showOnHover">
+                            <a href="#" class="product__thumbnail-buy">В КОРЗИНУ</a>
+                            <a href="item_inform.html" class="simple-ajax-popup product__thumbnail-fastView">Быстрый просмотр</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-2 product">
+                <div class="product__thumbnail sale-icon ">
+                    <img src="images/225%D1%85225.png" class=" product__thumbnail-image img-responsive" alt="...">
+                    <div class="caption">
+                        <h3 class="product__thumbnail-title">Название товара не более двух строк</h3>
+                        <p class="product__thumbnail-price">9 990 руб.</p>
+                        <div class="product__thumbnail-showOnHover">
+                            <a href="#" class="product__thumbnail-buy">В КОРЗИНУ</a>
+                            <a href="fastview.html" class="product__thumbnail-fastView simple-ajax-popup">Быстрый просмотр</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-2 product">
+                <div class="product__thumbnail sale-icon ">
+                    <img src="images/225%D1%85225.png" class=" product__thumbnail-image img-responsive" alt="...">
+                    <div class="caption">
+                        <h3 class="product__thumbnail-title">Название товара не более двух строк</h3>
+                        <p class="product__thumbnail-price">9 990 руб.</p>
+                        <div class="product__thumbnail-showOnHover">
+                            <a href="#" class="product__thumbnail-buy">В КОРЗИНУ</a>
+                            <a href="fastview.html" class="product__thumbnail-fastView simple-ajax-popup">Быстрый просмотр</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-2 product">
+                <div class="product__thumbnail sale-icon ">
+                    <img src="images/225%D1%85225.png" class=" product__thumbnail-image img-responsive" alt="...">
+                    <div class="caption">
+                        <h3 class="product__thumbnail-title">Название товара не более двух строк</h3>
+                        <p class="product__thumbnail-price">9 990 руб.</p>
+                        <div class="product__thumbnail-showOnHover">
+                            <a href="#" class="product__thumbnail-buy">В КОРЗИНУ</a>
+                            <a href="fastview.html" class="product__thumbnail-fastView simple-ajax-popup">Быстрый просмотр</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class=" firms ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-2 firms__img"><img src="images/%D0%BB%D0%BE%D0%B3%D0%BE-1.png" alt=""></div>
+                    <div class="col-xs-2 firms__img"><img src="images/%D0%BB%D0%BE%D0%B3%D0%BE-1.png" alt=""></div>
+                    <div class="col-xs-2 firms__img"><img src="images/%D0%BB%D0%BE%D0%B3%D0%BE-1.png" alt=""></div>
+                    <div class="col-xs-2 firms__img"><img src="images/%D0%BB%D0%BE%D0%B3%D0%BE-1.png" alt=""></div>
+                    <div class="col-xs-2 firms__img"><img src="images/%D0%BB%D0%BE%D0%B3%D0%BE-1.png" alt=""></div>
+                    <div class="col-xs-2 firms__img"><img src="images/%D0%BB%D0%BE%D0%B3%D0%BE-1.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer__navigation col-xs-6">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <ul class="list-unstyled">
+                                    <li><a class="footer__navigation-link" href="#">Оплата</a></li>
+                                    <li><a class="footer__navigation-link" href="#">Доставка</a></li>
+                                    <li><a class="footer__navigation-link" href="#">Гарантии</a></li>
+                                    <li><a class="footer__navigation-link" href="#">Контакты</a></li>
+                                    <li><a class="footer__navigation-link" href="#">О компании</a></li>
+                                    <li><a class="footer__navigation-link" href="#">Блог</a></li>
+                                    <li><a class="footer__navigation-link" href="#">Статус заказа</a></li>
+                                    <li><a class="footer__navigation-link" href="#">Помощь</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-6">
+                                <ul class="list-unstyled">
+                                    <li><a class="footer__navigation-link" href="#" class="c-cls">Главная</a></li>
+                                    <li><a class="footer__navigation-link" href="#">Каталог</a></li>
+                                    <li><a class="footer__navigation-link" href="#">Красота</a></li>
+                                    <li><a class="footer__navigation-link" href="#">Безопасность</a></li>
+                                    <li><a class="footer__navigation-link" href="#">Комфорт</a></li>
+                                    <li><a class="footer__navigation-link" href="#">Необходимость</a></li>
+                                    <li><a class="footer__navigation-link" href="#">Скидки</a></li>
+                                    <li><a class="footer__navigation-link" href="#">Регистрация</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__form col-xs-6">
+                        <div class="footer__form-title">ЕСТЬ ВОПРОСЫ?</div>
+                        <form class="footer__form-body">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Иванов Иван">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="exampleInputPassword1" placeholder="ivanov@autoaks.ru">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="3" placeholder="Помогите подобрать авточехлы для BMW X5"></textarea>
+
+
+                            </div>
+
+
+                            <button type="submit" class="btn footer__form-submit ">ОТПРАВИТЬ</button>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/velocity/velocity.js"></script>
+    <script src="bower_components/tabtab.js/dist/tabtab.js"></script>
+    <script src="bower_components/magnific-popup/dist/jquery.magnific-popup.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

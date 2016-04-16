@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!--    <meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <!--    <meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="bower_components/magnific-popup/dist/magnific-popup.css">
+    <link rel="stylesheet" href="fonts/avenir.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="background">
+    <header>
+        <div class="container">
+            <div class="row top-menu">
+                <div class="col-xs-5">
+                    <ul class="list-inline">
+                        <li><a href="#">Оплата</a></li>
+                        <li><a href="#">Доставка</a></li>
+                        <li><a href="#">Гарантия</a></li>
+                        <li><a href="#">Блог</a></li>
+                        <li><a href="#">О нас</a></li>
+                    </ul>
+                </div>
+                <div class="col-xs-4 pull-right text-right">
+                    <ul class="list-inline">
+                        <li><a href="#">Что с моим заказом?</a></li>
+                        <li><a href="#">Помощь</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="top-info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-5">
+                        <div class="row">
+                            <div class="col-xs-6 geo-ip">
+                                <div class="row">
+                                    <img src="images/Локация.png" class="col-xs-3 img-responsive" alt="">
+                                    <div class="col-xs-9 location">
+                                        <span class="city">Нижневартовск</span>
+                                        <br>
+                                        <a href="#" class="url dotted-underline">не ваш город?</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-6 phone">
+                                <span class="number">+7 800 <span>800 31 31</span></span>
+                                <br>
+                                <a href="#" class="call dotted-underline">заказать обратный звонок</a>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xs-3">
+                        <input type="text" class="form-control search-query" placeholder="что вы ищите?">
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="row">
+                            <div class="col-xs-6 text-center logo">
+                                <div class="image">
+                                    <div class="src"></div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3">
+                                <a href="#"><img src="images/%D0%B2%D1%85%D0%BE%D0%B4.png" alt=""></a>
+                            </div>
+                            <div class="col-xs-3">
+                                <a href="#">
+                                    <img src="images/%D0%BA%D0%BE%D1%80%D0%B7%D0%B8%D0%BD%D0%B0.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="navigation">
+            <div class="container">
+                <nav>
+                    <ul class="list-inline">
+                        <li><a href="#">Весь каталог</a></li>
+                        <li><a href="#">Красота</a></li>
+                        <li><a href="#">Безопасность</a></li>
+                        <li><a href="#">Комфорт</a></li>
+                        <li><a href="#">Скидки</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section id="slider"></section>
+    <section id="why-us" class="container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-4">
+                        <div class="media first-media">
+                            <div class="media-left media-middle">
+                                <a href="#">
+                                    <img class="media-object" src="images/%D0%BE%D0%BF%D1%8B%D1%82.png" alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body media-middle">
+                                <h4>Более 11 лет на рынке</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="media two-media">
+                            <div class="media-left media-middle">
+                                <a href="#">
+                                    <img class="media-object" src="images/%D0%A6%D0%B5%D0%BD%D1%8B.png" alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body media-middle">
+                                <h4>Более 11 лет на рынке</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div class="media three-media">
+                            <div class="media-left media-middle">
+                                <a href="#">
+                                    <img class="media-object" src="images/%D0%94%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%B0.png" alt="...">
+                                </a>
+                            </div>
+                            <div class="media-body media-middle">
+                                <h4>Более 11 лет на рынке</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="recommendation" class="container">
+        <div class="row header">
+            <div class="col-xs-10 col-xs-offset-1">
+                <h2 class="title"><span>РЕКОМЕНДУЕМ</span></h2>
+            </div>
+        </div>
+        <div class="row recommendation-slider">
+            <div id="tabs" class="responsiveTabs col-xs-12">
+                <div class="row">
+                    <ul class="tabs__menu list-inline col-xs-10 col-xs-offset-1">
+                        <li><a href="#tab-1"> НОВИНКИ </a></li>
+                        <li><a href="#tab-2"> АКЦИИ И СКИДКИ </a></li>
+                        <li><a href="#tab-3"> ХИТЫ ПРОДАЖ </a></li>
+                        <span class="pull-right">
+                        <a href="#" class="prev tabs-controls__prev">
+                            <img src="images/%D1%81%D1%82%D1%80%D0%B5%D0%BB%D0%BA%D0%B0.png" alt="">
+                        </a>
+                        <a href="#" class="next tabs-controls__next"><img src="images/%D1%81%D1%82%D1%80%D0%B5%D0%BB%D0%BA%D0%B0.png" alt=""></a>
+                        </span>
+                    </ul>
+                </div>
+                <div class="tabs__content row">
+                    <div class="tab__content-item col-xs-12" id="tab-1">
+                        <div class="row">
+                            <div class="col-xs-3 product">
+                                <div class="product__thumbnail sale-icon ">
+                                    <img src="images/225%D1%85225.png" class=" product__thumbnail-image img-responsive" alt="...">
+                                    <div class="caption">
+                                        <h3 class="product__thumbnail-title">Название товара не более двух строк</h3>
+                                        <p class="product__thumbnail-price">9 990 руб.</p>
+                                        <div class="product__thumbnail-showOnHover">
+                                            <a href="#" class="product__thumbnail-buy">В КОРЗИНУ</a>
+                                            <a href="fastview.html" class="product__thumbnail-fastView simple-ajax-popup">Быстрый просмотр</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3 product">
+                                <div class="product__thumbnail hit-icon">
+                                    <img src="images/225%D1%85225.png" class="product__thumbnail-image img-responsive" alt="...">
+                                    <div class="caption">
+                                        <h3 class="product__thumbnail-title">Название товара не более двух строк</h3>
+                                        <p class="product__thumbnail-price sale"><span class="sale__price">8 590 руб.</span>9 990 руб.</p>
+                                        <div class="product__thumbnail-showOnHover">
+                                            <a href="#" class="product__thumbnail-buy">В КОРЗИНУ</a>
+                                            <a href="fastview.html" class="product__thumbnail-fastView simple-ajax-popup">Быстрый просмотр</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3 product">
+                                <div class="product__thumbnail">
+                                    <img src="images/225%D1%85225.png" class="product__thumbnail-image img-responsive" alt="...">
+                                    <div class="caption">
+                                        <h3 class="product__thumbnail-title">Название товара не более двух строк</h3>
+                                        <p class="product__thumbnail-price">9 990 руб.</p>
+                                        <div class="product__thumbnail-showOnHover">
+                                            <a href="#" class="product__thumbnail-buy">В КОРЗИНУ</a>
+                                            <a href="fastview.html" class="product__thumbnail-fastView simple-ajax-popup">Быстрый просмотр</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3 product">
+                                <div class="product__thumbnail">
+                                    <img src="images/225%D1%85225.png" class="product__thumbnail-image img-responsive" alt="...">
+                                    <div class="caption">
+                                        <h3 class="product__thumbnail-title">Название товара не более двух строк</h3>
+                                        <p class="product__thumbnail-price">9 990 руб.</p>
+                                        <div class="product__thumbnail-showOnHover">
+                                            <a href="#" class="product__thumbnail-buy">В КОРЗИНУ</a>
+                                            <a href="fastview.html" class="product__thumbnail-fastView simple-ajax-popup">Быстрый просмотр</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-3 product">
+                                <div class="product__thumbnail">
+                                    <img src="images/225%D1%85225.png" class=" product__thumbnail-image img-responsive" alt="...">
+                                    <div class="caption">
+                                        <h3 class="product__thumbnail-title">Название товара не более двух строк</h3>
+                                        <p class="product__thumbnail-price">9 990 руб.</p>
+                                        <div class="product__thumbnail-showOnHover">
+                                            <a href="#" class="product__thumbnail-buy">В КОРЗИНУ</a>
+                                            <a href="fastview.html" class="product__thumbnail-fastView simple-ajax-popup">Быстрый просмотр</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3 product">
+                                <div class="product__thumbnail">
+                                    <img src="images/225%D1%85225.png" class="product__thumbnail-image img-responsive" alt="...">
+                                    <div class="caption">
+                                        <h3 class="product__thumbnail-title">Название товара не более двух строк</h3>
+                                        <p class="product__thumbnail-price sale"><span class="sale__price">8 590 руб.</span>9 990 руб.</p>
+                                        <div class="product__thumbnail-showOnHover">
+                                            <a href="#" class="product__thumbnail-buy">В КОРЗИНУ</a>
+                                            <a href="fastview.html" class="product__thumbnail-fastView simple-ajax-popup">Быстрый просмотр</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3 product">
+                                <div class="product__thumbnail">
+                                    <img src="images/225%D1%85225.png" class="product__thumbnail-image img-responsive" alt="...">
+                                    <div class="caption">
+                                        <h3 class="product__thumbnail-title">Название товара не более двух строк</h3>
+                                        <p class="product__thumbnail-price">9 990 руб.</p>
+                                        <div class="product__thumbnail-showOnHover">
+                                            <a href="#" class="product__thumbnail-buy">В КОРЗИНУ</a>
+                                            <a href="fastview.html" class="product__thumbnail-fastView simple-ajax-popup">Быстрый просмотр</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3 product">
+                                <div class="product__thumbnail">
+                                    <img src="images/225%D1%85225.png" class="product__thumbnail-image img-responsive" alt="...">
+                                    <div class="caption">
+                                        <h3 class="product__thumbnail-title">Название товара не более двух строк</h3>
+                                        <p class="product__thumbnail-price">9 990 руб.</p>
+                                        <div class="product__thumbnail-showOnHover">
+                                            <a href="#" class="product__thumbnail-buy">В КОРЗИНУ</a>
+                                            <a href="fastview.html" class="product__thumbnail-fastView simple-ajax-popup">Быстрый просмотр</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab__content-item col-xs-12" id="tab-2">
+                        <div class="row">
+                            <div class="col-xs-3 product">
+                                <div class="product__thumbnail new-icon">
+                                    <img src="images/225%D1%85225.png" class=" product__thumbnail-image img-responsive" alt="...">
+                                    <div class="caption">
+                                        <h3 class="product__thumbnail-title">Название товара не более двух строк</h3>
+                                        <p class="product__thumbnail-price">9 990 руб.</p>
+                                        <div class="product__thumbnail-showOnHover">
+                                            <a href="#" class="product__thumbnail-buy">В КОРЗИНУ</a>
+                                            <a href="fastview.html" class="product__thumbnail-fastView simple-ajax-popup">Быстрый просмотр</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3 product">
+                                <div class="product__thumbnail">
+                                    <img src="images/225%D1%85225.png" class="product__thumbnail-image img-responsive" alt="...">
+                                    <div class="caption">
+                                        <h3 class="product__thumbnail-title">Название товара не более двух строк</h3>
+                                        <p class="product__thumbnail-price sale"><span class="sale__price">8 590 руб.</span>9 990 руб.</p>
+                                        <div class="product__thumbnail-showOnHover">
+                                            <a href="#" class="product__thumbnail-buy">В КОРЗИНУ</a>
+                                            <a href="fastview.html" class="product__thumbnail-fastView simple-ajax-popup">Быстрый просмотр</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3 product">
+                                <div class="product__thumbnail">
+                                    <img src="images/225%D1%85225.png" class="product__thumbnail-image img-responsive" alt="...">
+                                    <div class="caption">
+                                        <h3 class="product__thumbnail-title">Название товара не более двух строк</h3>
+                                        <p class="product__thumbnail-price">9 990 руб.</p>
+                                        <div class="product__thumbnail-showOnHover">
+                                            <a href="#" class="product__thumbnail-buy">В КОРЗИНУ</a>
+                                            <a href="fastview.html" class="product__thumbnail-fastView simple-ajax-popup">Быстрый просмотр</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3 product">
+                                <div class="product__thumbnail">
+                                    <img src="images/225%D1%85225.png" class="product__thumbnail-image img-responsive" alt="...">
+                                    <div class="caption">
+                                        <h3 class="product__thumbnail-title">Название товара не более двух строк</h3>
+                                        <p class="product__thumbnail-price">9 990 руб.</p>
+                                        <div class="product__thumbnail-showOnHover">
+                                            <a href="#" class="product__thumbnail-buy">В КОРЗИНУ</a>
+                                            <a href="fastview.html" class="product__thumbnail-fastView simple-ajax-popup">Быстрый просмотр</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-3 product">
+                                <div class="product__thumbnail">
+                                    <img src="images/225%D1%85225.png" class=" product__thumbnail-image img-responsive" alt="...">
+                                    <div class="caption">
+                                        <h3 class="product__thumbnail-title">Название товара не более двух строк</h3>
+                                        <p class="product__thumbnail-price">9 990 руб.</p>
+                                        <div class="product__thumbnail-showOnHover">
+                                            <a href="#" class="product__thumbnail-buy">В КОРЗИНУ</a>
+                                            <a href="fastview.html" class="product__thumbnail-fastView simple-ajax-popup">Быстрый просмотр</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3 product">
+                                <div class="product__thumbnail">
+                                    <img src="images/225%D1%85225.png" class="product__thumbnail-image img-responsive" alt="...">
+                                    <div class="caption">
+                                        <h3 class="product__thumbnail-title">Название товара не более двух строк</h3>
+                                        <p class="product__thumbnail-price sale"><span class="sale__price">8 590 руб.</span>9 990 руб.</p>
+                                        <div class="product__thumbnail-showOnHover">
+                                            <a href="#" class="product__thumbnail-buy">В КОРЗИНУ</a>
+                                            <a href="fastview.html" class="product__thumbnail-fastView simple-ajax-popup">Быстрый просмотр</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3 product">
+                                <div class="product__thumbnail">
+                                    <img src="images/225%D1%85225.png" class="product__thumbnail-image img-responsive" alt="...">
+                                    <div class="caption">
+                                        <h3 class="product__thumbnail-title">Название товара не более двух строк</h3>
+                                        <p class="product__thumbnail-price">9 990 руб.</p>
+                                        <div class="product__thumbnail-showOnHover">
+                                            <a href="#" class="product__thumbnail-buy">В КОРЗИНУ</a>
+                                            <a href="fastview.html" class="product__thumbnail-fastView simple-ajax-popup">Быстрый просмотр</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3 product">
+                                <div class="product__thumbnail">
+                                    <img src="images/225%D1%85225.png" class="product__thumbnail-image img-responsive" alt="...">
+                                    <div class="caption">
+                                        <h3 class="product__thumbnail-title">Название товара не более двух строк</h3>
+                                        <p class="product__thumbnail-price">9 990 руб.</p>
+                                        <div class="product__thumbnail-showOnHover">
+                                            <a href="#" class="product__thumbnail-buy">В КОРЗИНУ</a>
+                                            <a href="fastview.html" class="product__thumbnail-fastView simple-ajax-popup">Быстрый просмотр</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab__content-item col-xs-12" id="tab-3">
+                        <div class="row">
+                            <div class="col-xs-3 product">
+                                <div class="product__thumbnail">
+                                    <img src="images/225%D1%85225.png" class=" product__thumbnail-image img-responsive" alt="...">
+                                    <div class="caption">
+                                        <h3 class="product__thumbnail-title">Название товара не более двух строк</h3>
+                                        <p class="product__thumbnail-price">9 990 руб.</p>
+                                        <div class="product__thumbnail-showOnHover">
+                                            <a href="#" class="product__thumbnail-buy">В КОРЗИНУ</a>
+                                            <a href="fastview.html" class="product__thumbnail-fastView simple-ajax-popup">Быстрый просмотр</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3 product">
+                                <div class="product__thumbnail">
+                                    <img src="images/225%D1%85225.png" class="product__thumbnail-image img-responsive" alt="...">
+                                    <div class="caption">
+                                        <h3 class="product__thumbnail-title">Название товара не более двух строк</h3>
+                                        <p class="product__thumbnail-price sale"><span class="sale__price">8 590 руб.</span>9 990 руб.</p>
+                                        <div class="product__thumbnail-showOnHover">
+                                            <a href="#" class="product__thumbnail-buy">В КОРЗИНУ</a>
+                                            <a href="fastview.html" class="product__thumbnail-fastView simple-ajax-popup">Быстрый просмотр</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3 product">
+                                <div class="product__thumbnail">
+                                    <img src="images/225%D1%85225.png" class="product__thumbnail-image img-responsive" alt="...">
+                                    <div class="caption">
+                                        <h3 class="product__thumbnail-title">Название товара не более двух строк</h3>
+                                        <p class="product__thumbnail-price">9 990 руб.</p>
+                                        <div class="product__thumbnail-showOnHover">
+                                            <a href="#" class="product__thumbnail-buy">В КОРЗИНУ</a>
+                                            <a href="fastview.html" class="product__thumbnail-fastView simple-ajax-popup">Быстрый просмотр</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3 product">
+                                <div class="product__thumbnail">
+                                    <img src="images/225%D1%85225.png" class="product__thumbnail-image img-responsive" alt="...">
+                                    <div class="caption">
+                                        <h3 class="product__thumbnail-title">Название товара не более двух строк</h3>
+                                        <p class="product__thumbnail-price">9 990 руб.</p>
+                                        <div class="product__thumbnail-showOnHover">
+                                            <a href="#" class="product__thumbnail-buy">В КОРЗИНУ</a>
+                                            <a href="fastview.html" class="product__thumbnail-fastView simple-ajax-popup">Быстрый просмотр</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-3 product">
+                                <div class="product__thumbnail">
+                                    <img src="images/225%D1%85225.png" class=" product__thumbnail-image img-responsive" alt="...">
+                                    <div class="caption">
+                                        <h3 class="product__thumbnail-title">Название товара не более двух строк</h3>
+                                        <p class="product__thumbnail-price">9 990 руб.</p>
+                                        <div class="product__thumbnail-showOnHover">
+                                            <a href="#" class="product__thumbnail-buy">В КОРЗИНУ</a>
+                                            <a href="fastview.html" class="product__thumbnail-fastView simple-ajax-popup">Быстрый просмотр</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3 product">
+                                <div class="product__thumbnail">
+                                    <img src="images/225%D1%85225.png" class="product__thumbnail-image img-responsive" alt="...">
+                                    <div class="caption">
+                                        <h3 class="product__thumbnail-title">Название товара не более двух строк</h3>
+                                        <p class="product__thumbnail-price sale"><span class="sale__price">8 590 руб.</span>9 990 руб.</p>
+                                        <div class="product__thumbnail-showOnHover">
+                                            <a href="#" class="product__thumbnail-buy">В КОРЗИНУ</a>
+                                            <a href="fastview.html" class="product__thumbnail-fastView simple-ajax-popup">Быстрый просмотр</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3 product">
+                                <div class="product__thumbnail">
+                                    <img src="images/225%D1%85225.png" class="product__thumbnail-image img-responsive" alt="...">
+                                    <div class="caption">
+                                        <h3 class="product__thumbnail-title">Название товара не более двух строк</h3>
+                                        <p class="product__thumbnail-price">9 990 руб.</p>
+                                        <div class="product__thumbnail-showOnHover">
+                                            <a href="#" class="product__thumbnail-buy">В КОРЗИНУ</a>
+                                            <a href="fastview.html" class="product__thumbnail-fastView simple-ajax-popup">Быстрый просмотр</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-3 product">
+                                <div class="product__thumbnail">
+                                    <img src="images/225%D1%85225.png" class="product__thumbnail-image  img-responsive" alt="...">
+                                    <div class="caption">
+                                        <h3 class="product__thumbnail-title">Название товара не более двух строк</h3>
+                                        <p class="product__thumbnail-price">9 990 руб.</p>
+                                        <div class="product__thumbnail-showOnHover">
+                                            <a href="#" class="product__thumbnail-buy">В КОРЗИНУ</a>
+                                            <a href="fastview.html" class="product__thumbnail-fastView simple-ajax-popup">Быстрый просмотр</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section id="new-in-blog" class="container">
+
+        <div class="row header">
+            <div class="col-xs-10 col-xs-offset-1">
+                <h2 class="title"><span>СВЕЖЕЕ В БЛОГЕ</span></h2>
+            </div>
+        </div>
+        <div class="row recommendation-slider">
+            <div id="blog-tabs" class="responsiveTabs col-xs-12">
+                <div class="row">
+                    <ul class="tabs__menu list-inline col-xs-10 col-xs-offset-1">
+                        <li><a href="#tab-blog-1"> НОВОСТИ </a></li>
+                        <li><a href="#tab-blog-2"> СТАТЬИ </a></li>
+                        <li><a href="#tab-blog-3"> ОБЗОР И ТЕСТЫ </a></li>
+                        <span class="pull-right">
+                        <a href="#" class="prev tabs-controls__prev">
+                            <img src="images/%D1%81%D1%82%D1%80%D0%B5%D0%BB%D0%BA%D0%B0.png" alt="">
+                        </a>
+                        <a href="#" class="next tabs-controls__next"><img src="images/%D1%81%D1%82%D1%80%D0%B5%D0%BB%D0%BA%D0%B0.png" alt=""></a>
+                        </span>
+                    </ul>
+                </div>
+                <div class="tabs__content tab-blog row">
+                    <div class="tab__content-item col-xs-12" id="tab-blog-1">
+                        <div class="row">
+                            <div class="col-xs-4 product about__news">
+                                <div class="product__thumbnail">
+                                    <h3 class="product__thumbnail-news">Наименование статьи не более двух строк</h3>
+                                    <img src="images/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png" class=" product__thumbnail-image about__news-image img-responsive" alt="...">
+                                    <div class="caption about__news-small">
+                                        Повседневная практика показывает, что реализация намеченных плановых заданий влечет за собой процесс внедрения...
+                                    </div>
+                                    <div class="about__news-footer">
+                                        <span class="time">10 сентября 2015</span>
+                                        <a href="#" class="read-more pull-right">Далее</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-4 product about__news">
+                                <div class="product__thumbnail">
+                                    <h3 class="product__thumbnail-news">Наименование статьи не более двух строк</h3>
+                                    <img src="images/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png" class=" product__thumbnail-image about__news-image img-responsive" alt="...">
+                                    <div class="caption about__news-small">
+                                        Повседневная практика показывает, что реализация намеченных плановых заданий влечет за собой процесс внедрения...
+                                    </div>
+                                    <div class="about__news-footer">
+                                        <span class="time">10 сентября 2015</span>
+                                        <a href="#" class="read-more pull-right">Далее</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-4 product about__news">
+                                <div class="product__thumbnail">
+                                    <h3 class="product__thumbnail-news">Наименование статьи не более двух строк</h3>
+                                    <img src="images/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png" class=" product__thumbnail-image about__news-image img-responsive" alt="...">
+                                    <div class="caption about__news-small">
+                                        Повседневная практика показывает, что реализация намеченных плановых заданий влечет за собой процесс внедрения...
+                                    </div>
+                                    <div class="about__news-footer">
+                                        <span class="time">10 сентября 2015</span>
+                                        <a href="#" class="read-more pull-right">Далее</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="tab__content-item col-xs-12" id="tab-blog-2">
+                        <div class="row">
+                            <div class="col-xs-4 product about__news">
+                                <div class="product__thumbnail">
+                                    <h3 class="product__thumbnail-news">Наименование статьи не более двух строк</h3>
+                                    <img src="images/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png" class=" product__thumbnail-image about__news-image img-responsive" alt="...">
+                                    <div class="caption about__news-small">
+                                        Повседневная практика показывает, что реализация намеченных плановых заданий влечет за собой процесс внедрения...
+                                    </div>
+                                    <div class="about__news-footer">
+                                        <span class="time">10 сентября 2015</span>
+                                        <a href="#" class="read-more pull-right">Далее</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-4 product about__news">
+                                <div class="product__thumbnail">
+                                    <h3 class="product__thumbnail-news">Наименование статьи не более двух строк</h3>
+                                    <img src="images/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png" class=" product__thumbnail-image about__news-image img-responsive" alt="...">
+                                    <div class="caption about__news-small">
+                                        Повседневная практика показывает, что реализация намеченных плановых заданий влечет за собой процесс внедрения...
+                                    </div>
+                                    <div class="about__news-footer">
+                                        <span class="time">10 сентября 2015</span>
+                                        <a href="#" class="read-more pull-right">Далее</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-4 product about__news">
+                                <div class="product__thumbnail">
+                                    <h3 class="product__thumbnail-news">Наименование статьи не более двух строк</h3>
+                                    <img src="images/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png" class=" product__thumbnail-image about__news-image img-responsive" alt="...">
+                                    <div class="caption about__news-small">
+                                        Повседневная практика показывает, что реализация намеченных плановых заданий влечет за собой процесс внедрения...
+                                    </div>
+                                    <div class="about__news-footer">
+                                        <span class="time">10 сентября 2015</span>
+                                        <a href="#" class="read-more pull-right">Далее</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="tab__content-item col-xs-12" id="tab-blog-3">
+                        <div class="row">
+                            <div class="col-xs-4 product about__news">
+                                <div class="product__thumbnail">
+                                    <h3 class="product__thumbnail-news">Наименование статьи не более двух строк</h3>
+                                    <img src="images/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png" class=" product__thumbnail-image about__news-image img-responsive" alt="...">
+                                    <div class="caption about__news-small">
+                                        Повседневная практика показывает, что реализация намеченных плановых заданий влечет за собой процесс внедрения...
+                                    </div>
+                                    <div class="about__news-footer">
+                                        <span class="time">10 сентября 2015</span>
+                                        <a href="#" class="read-more pull-right">Далее</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-4 product about__news">
+                                <div class="product__thumbnail">
+                                    <h3 class="product__thumbnail-news">Наименование статьи не более двух строк</h3>
+                                    <img src="images/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png" class=" product__thumbnail-image about__news-image img-responsive" alt="...">
+                                    <div class="caption about__news-small">
+                                        Повседневная практика показывает, что реализация намеченных плановых заданий влечет за собой процесс внедрения...
+                                    </div>
+                                    <div class="about__news-footer">
+                                        <span class="time">10 сентября 2015</span>
+                                        <a href="#" class="read-more pull-right">Далее</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-4 product about__news">
+                                <div class="product__thumbnail">
+                                    <h3 class="product__thumbnail-news">Наименование статьи не более двух строк</h3>
+                                    <img src="images/%D0%98%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F.png" class=" product__thumbnail-image about__news-image img-responsive" alt="...">
+                                    <div class="caption about__news-small">
+                                        Повседневная практика показывает, что реализация намеченных плановых заданий влечет за собой процесс внедрения...
+                                    </div>
+                                    <div class="about__news-footer">
+                                        <span class="time">10 сентября 2015</span>
+                                        <a href="#" class="read-more pull-right">Далее</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="offer">
+        <div class="container">
+            <div class="row">
+                <a href="#">Любая информация, которую необходимо донести до пользователя. При нажатии осуществляется переход на заданную страницу.</a>
+            </div>
+        </div>
+
+    </section>
+    <section id="contact" class="container">
+        <div class="row header">
+            <div class="col-xs-10 col-xs-offset-1">
+                <h2 class="title"><span>КОНТАКТЫ</span></h2>
+            </div>
+        </div>
+        <div class="row recommendation-slider">
+            <div id="contact-tabs" class="responsiveTabs col-xs-12">
+                <div class="row">
+                    <ul class="tabs__menu list-inline col-xs-10 col-xs-offset-1">
+                        <li><a href="#tab-contact-1"> НИЖНЕВАРТОВСК </a></li>
+                        <li><a href="#tab-contact-2"> СУРГУТ </a></li>
+                        <li><a href="#tab-contact-3"> НОВЫЙ УРЕНГОЙ </a></li>
+                        <span class="pull-right">
+                        <a href="#" class="prev tabs-controls__prev">
+                            <img src="images/%D1%81%D1%82%D1%80%D0%B5%D0%BB%D0%BA%D0%B0.png" alt="">
+                        </a>
+                        <a href="#" class="next tabs-controls__next"><img src="images/%D1%81%D1%82%D1%80%D0%B5%D0%BB%D0%BA%D0%B0.png" alt=""></a>
+                        </span>
+                    </ul>
+                </div>
+                <div class="tabs__content row">
+                    <div class="tab__content-item col-xs-12" id="tab-contact-1">
+                        <div class="row">
+                            <div class=" contact">
+                                <div class="contact__info">
+                                    <p class="contact__info-address">Россия, ХМАО-Югра, г. Нижневартовск, ул. Ленина 3П, строение 4</p>
+
+                                    <span class="contact__info-phone">тел. +7 3466 219 219 </span>
+                                    <span class="contact__info-email">e-mail: info@autoaks.ru</span>
+                                </div>
+                                <div class="contact__map" id="map1">
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="tab__content-item col-xs-12" id="tab-contact-2">
+                        <div class="row">
+                            <div class="contact">
+                                <div class="contact__info">
+                                    <p class="contact__info-address">Россия, ХМАО-Югра, г. Нижневартовск, ул. Ленина 3П, строение 4</p>
+
+                                    <span class="contact__info-phone">тел. +7 3466 219 219 </span>
+                                    <span class="contact__info-email">e-mail: info@autoaks.ru</span>
+                                </div>
+                                <div class="contact__map" id="map2">
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div class="tab__content-item col-xs-12" id="tab-contact-3">
+                        <div class="row">
+                            <div class=" contact">
+                                <div class="contact__info">
+                                    <p class="contact__info-address">Россия, ХМАО-Югра, г. Нижневартовск, ул. Ленина 3П, строение 4</p>
+
+                                    <span class="contact__info-phone">тел. +7 3466 219 219 </span>
+                                    <span class="contact__info-email">e-mail: info@autoaks.ru</span>
+                                </div>
+                                <div class="contact__map" id="map3">
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container" id="about-us">
+        <div class="row header">
+            <div class="col-xs-10 col-xs-offset-1">
+                <h2 class="title"><span>О НАС</span></h2>
+            </div>
+        </div>
+        <div class="row recommendation-slider ">
+            <div class="col-xs-12 ">
+                <div class="about-us__text">
+                    <p class="about-us__text-paragraph">Не следует, однако забывать, что постоянное информационно-пропагандистское обеспечение нашей деятельности обеспечивает широкому кругу (специалистов) участие в формировании соответствующий условий активизации. Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации соответствующий условий активизации.</p>
+                    <p class="about-us__text-paragraph">Разнообразный и богатый опыт реализация намеченных плановых заданий играет важную роль в формировании дальнейших направлений развития. Идейные соображения высшего порядка, а также сложившаяся структура организации требуют от нас анализа модели развития. С другой стороны постоянный количественный рост и сфера нашей активности представляет собой интересный эксперимент проверки систем массового участия.</p>
+                    <p class="about-us__text-paragraph">Задача организации, в особенности же сложившаяся структура организации представляет собой интересный эксперимент проверки системы обучения кадров, соответствует насущным потребностям. Повседневная практика показывает, что консультация с широким активом позволяет оценить значение форм развития. Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности представляет собой интересный эксперимент проверки позиций, занимаемых участниками в отношении поставленных задач.</p>
+                    <p class="about-us__text-paragraph">Разнообразный и богатый опыт рамки и место обучения кадров в значительной степени обуславливает создание системы обучения кадров, соответствует насущным потребностям. Повседневная практика показывает, что новая модель организационной деятельности позволяет выполнять важные задания по разработке направлений прогрессивного развития. Таким образом постоянный количественный рост и сфера нашей активности позволяет оценить значение систем массового участия.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class=" firms ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-2 firms__img"><img src="images/%D0%BB%D0%BE%D0%B3%D0%BE-1.png" alt=""></div>
+                    <div class="col-xs-2 firms__img"><img src="images/%D0%BB%D0%BE%D0%B3%D0%BE-1.png" alt=""></div>
+                    <div class="col-xs-2 firms__img"><img src="images/%D0%BB%D0%BE%D0%B3%D0%BE-1.png" alt=""></div>
+                    <div class="col-xs-2 firms__img"><img src="images/%D0%BB%D0%BE%D0%B3%D0%BE-1.png" alt=""></div>
+                    <div class="col-xs-2 firms__img"><img src="images/%D0%BB%D0%BE%D0%B3%D0%BE-1.png" alt=""></div>
+                    <div class="col-xs-2 firms__img"><img src="images/%D0%BB%D0%BE%D0%B3%D0%BE-1.png" alt=""></div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer__navigation col-xs-6">
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <ul class="list-unstyled">
+                                    <li><a class="footer__navigation-link" href="#">Оплата</a></li>
+                                    <li><a class="footer__navigation-link" href="#">Доставка</a></li>
+                                    <li><a class="footer__navigation-link" href="#">Гарантии</a></li>
+                                    <li><a class="footer__navigation-link" href="#">Контакты</a></li>
+                                    <li><a class="footer__navigation-link" href="#">О компании</a></li>
+                                    <li><a class="footer__navigation-link" href="#">Блог</a></li>
+                                    <li><a class="footer__navigation-link" href="#">Статус заказа</a></li>
+                                    <li><a class="footer__navigation-link" href="#">Помощь</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-6">
+                                <ul class="list-unstyled">
+                                    <li><a class="footer__navigation-link" href="#" class="c-cls">Главная</a></li>
+                                    <li><a class="footer__navigation-link" href="#">Каталог</a></li>
+                                    <li><a class="footer__navigation-link" href="#">Красота</a></li>
+                                    <li><a class="footer__navigation-link" href="#">Безопасность</a></li>
+                                    <li><a class="footer__navigation-link" href="#">Комфорт</a></li>
+                                    <li><a class="footer__navigation-link" href="#">Необходимость</a></li>
+                                    <li><a class="footer__navigation-link" href="#">Скидки</a></li>
+                                    <li><a class="footer__navigation-link" href="#">Регистрация</a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer__form col-xs-6">
+                        <div class="footer__form-title">ЕСТЬ ВОПРОСЫ?</div>
+                        <form class="footer__form-body">
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Иванов Иван">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="exampleInputPassword1" placeholder="ivanov@autoaks.ru">
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="3" placeholder="Помогите подобрать авточехлы для BMW X5"></textarea>
+
+
+                            </div>
+
+
+                            <button type="submit" class="btn footer__form-submit ">ОТПРАВИТЬ</button>
+                        </form>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </footer>
+    <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/velocity/velocity.js"></script>
+    <script src="bower_components/tabtab.js/dist/tabtab.js"></script>
+    <script src="bower_components/magnific-popup/dist/jquery.magnific-popup.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
